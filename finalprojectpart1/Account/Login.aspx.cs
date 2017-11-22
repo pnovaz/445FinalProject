@@ -84,8 +84,9 @@ namespace finalProject1.Account
                     else
                     {
 
-                        FormsAuthentication.RedirectFromLoginPage
-                            (UserName.Text, RememberMe.Checked);
+                        //FormsAuthentication.RedirectFromLoginPage
+                        //  (UserName.Text, RememberMe.Checked);
+                        Response.Redirect("~/MemberPage.aspx");
                     }
                 }
                 else
