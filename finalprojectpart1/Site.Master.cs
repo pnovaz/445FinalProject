@@ -75,6 +75,7 @@ namespace finalprojectpart1
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             FormsAuthentication.SignOut();
+          
         }
     }
 }

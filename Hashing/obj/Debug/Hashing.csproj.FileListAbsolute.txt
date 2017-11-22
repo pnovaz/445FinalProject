@@ -15,3 +15,9 @@ C:\Users\pnovakov\Downloads\445a51\445a51\445a5\Hashing\bin\Debug\Hashing.pdb
 C:\Users\pnovakov\Downloads\445a51\445a51\445a5\Hashing\obj\Debug\Hashing.csprojResolveAssemblyReference.cache
 C:\Users\pnovakov\Downloads\445a51\445a51\445a5\Hashing\obj\Debug\Hashing.dll
 C:\Users\pnovakov\Downloads\445a51\445a51\445a5\Hashing\obj\Debug\Hashing.pdb
+C:\Users\Petra\Desktop\445finalProject\Hashing\bin\Debug\Hashing.dll.config
+C:\Users\Petra\Desktop\445finalProject\Hashing\bin\Debug\Hashing.dll
+C:\Users\Petra\Desktop\445finalProject\Hashing\bin\Debug\Hashing.pdb
+C:\Users\Petra\Desktop\445finalProject\Hashing\obj\Debug\Hashing.csprojResolveAssemblyReference.cache
+C:\Users\Petra\Desktop\445finalProject\Hashing\obj\Debug\Hashing.dll
+C:\Users\Petra\Desktop\445finalProject\Hashing\obj\Debug\Hashing.pdb
