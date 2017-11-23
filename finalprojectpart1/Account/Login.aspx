@@ -4,7 +4,7 @@
 
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h2><%: Title %>Login</h2>
+    <h2><%: Title %>Member Login</h2>
 
     <style>
 

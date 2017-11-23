@@ -26,7 +26,7 @@ namespace finalprojectpart1.Account
 
             DataSet ds = new DataSet();
 
-            String userFile = "../App_Data/Staff.xml";
+            String userFile = "../App_Data/Member.xml";
 
             FileStream fs = new FileStream(Server.MapPath(userFile),
                 FileMode.Open, FileAccess.Read);
@@ -65,7 +65,7 @@ namespace finalprojectpart1.Account
             if (!String.IsNullOrEmpty(Request.QueryString["ReturnUrl"]))
                 Response.Redirect(Request.QueryString["ReturnUrl"]);
             else
-                Response.Redirect("~/StaffPage.aspx");
+                Response.Redirect("~/Account/Login.aspx");
 
 
 

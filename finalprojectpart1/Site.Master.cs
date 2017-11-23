@@ -18,6 +18,9 @@ namespace finalprojectpart1
 
         protected void Page_Init(object sender, EventArgs e)
         {
+
+          
+
             // The code below helps to protect against XSRF attacks
             var requestCookie = Request.Cookies[AntiXsrfTokenKey];
             Guid requestCookieGuidValue;
@@ -75,6 +78,7 @@ namespace finalprojectpart1
         protected void Unnamed_LoggingOut(object sender, LoginCancelEventArgs e)
         {
             FormsAuthentication.SignOut();
+            Session.Abandon();
           
         }
     }

@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="StaffLogin.aspx.cs" Inherits="finalprojectpart1.Account.StaffLogin" Async="true"   %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h2><%: Title %>Login</h2>
+    <h2><%: Title %>Staff Login</h2>
 
     <style>
 

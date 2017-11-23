@@ -35,7 +35,7 @@ namespace finalProject1.Account
         {
             if (IsValid)
             {
-                //cookie code
+                  
 
                 HttpCookie myCookies = new HttpCookie("myCookieId");
 
@@ -85,7 +85,7 @@ namespace finalProject1.Account
                     {
 
                         //FormsAuthentication.RedirectFromLoginPage
-                        //  (UserName.Text, RememberMe.Checked);
+                       //   (UserName.Text, RememberMe.Checked);
                         Response.Redirect("~/MemberPage.aspx");
                     }
                 }

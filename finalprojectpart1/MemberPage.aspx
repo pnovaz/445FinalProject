@@ -49,9 +49,9 @@
 
     <div class="jumbotron">
     
-        <h1>Member Page</h1>
-    <div>
-        <% Response.Write("Hello " + Context.User.Identity.Name + ", "); %>
+        <h1 class="welcomePage">Member Page</h1>
+    <div class="welcomePage">
+        <% Response.Write("Hello " + HttpContext.Current.User.Identity.Name + ", "); %>
         Access all Team Gucci Services Here
     
     </div>
