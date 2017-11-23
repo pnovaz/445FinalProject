@@ -53,7 +53,7 @@ namespace finalprojectpart1.Account
 
                 String cmd = "UserName='" + UserName.Text + "'";
 
-                FileStream fs = new FileStream(Server.MapPath("../App_Data/Member.xml"),
+                FileStream fs = new FileStream(Server.MapPath("../App_Data/Staff.xml"),
                                   FileMode.Open, FileAccess.Read);
                 StreamReader reader = new StreamReader(fs);
 

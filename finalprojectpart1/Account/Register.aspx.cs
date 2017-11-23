@@ -26,7 +26,7 @@ namespace finalprojectpart1.Account
 
             DataSet ds = new DataSet();
 
-            String userFile = "../App_Data/Member.xml";
+            String userFile = "../App_Data/Staff.xml";
 
             FileStream fs = new FileStream(Server.MapPath(userFile),
                 FileMode.Open, FileAccess.Read);
@@ -46,7 +46,7 @@ namespace finalprojectpart1.Account
 
             newUser["Password"] = hashedPassword;
 
-            newUser["Role"] = roleList.SelectedItem.Text; //either admin or member
+       
 
             ds.Tables[0].Rows.Add(newUser);
 
@@ -65,7 +65,7 @@ namespace finalprojectpart1.Account
             if (!String.IsNullOrEmpty(Request.QueryString["ReturnUrl"]))
                 Response.Redirect(Request.QueryString["ReturnUrl"]);
             else
-                Response.Redirect("~/Account/Login.aspx");
+                Response.Redirect("~/StaffPage.aspx");
 
 
 

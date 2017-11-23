@@ -33,15 +33,7 @@
                     CssClass="text-danger" Display="Dynamic" ErrorMessage="The password and confirmation password do not match." />
             </div>
         </div>
-        <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="ConfirmPassword" CssClass="col-md-2 control-label">User Role</asp:Label>
-            <div class="col-md-10">
-                <asp:DropDownList ID="roleList" runat="server" CssClass="form-control" Width="200px">
-                    <asp:ListItem>Admin</asp:ListItem>
-                    <asp:ListItem>User</asp:ListItem>
-                </asp:DropDownList>
-            </div>
-        </div>
+      
 
         
 
