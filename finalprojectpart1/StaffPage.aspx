@@ -8,6 +8,7 @@
          background-repeat: no-repeat; 
          background-image:url('http://i64.tinypic.com/214txra.png');
        
+       
         }
 
         #servicesTable {
@@ -57,8 +58,8 @@
     
         <h1 class="welcomePage">Staff Page</h1>
     <div class="welcomePage">
-        <% Response.Write("Hello " + HttpContext.Current.User.Identity.Name + ", "); %>
-        access all Team Gucci Staff Services here!
+        <% Response.Write("Hello, " + HttpContext.Current.User.Identity.Name + ". "); %>
+        Access all Team Gucci Staff Services here!
     
     </div>
         </div>

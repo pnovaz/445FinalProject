@@ -7,7 +7,7 @@
 
          body{
          background-repeat: no-repeat; 
-         background-image:url('http://i64.tinypic.com/214txra.png');
+       background-image:url('http://i64.tinypic.com/214txra.png');
        
         }
 
@@ -58,8 +58,8 @@
     
         <h1 class="welcomePage">Member Page</h1>
     <div class="welcomePage">
-        <% Response.Write("Hello " + HttpContext.Current.User.Identity.Name + ", "); %>
-        access all Team Gucci Services here!
+        <% Response.Write("Hello, " + HttpContext.Current.User.Identity.Name + ". "); %>
+        Access all Team Gucci Services here!
     
     </div>
         </div>
