@@ -7,7 +7,11 @@
     <h2><%: Title %>Member Login</h2>
 
     <style>
-
+         body{
+         background-repeat: no-repeat; 
+         background-image:url('http://i64.tinypic.com/214txra.png');
+       
+        }
         .welcome {
             color: firebrick;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

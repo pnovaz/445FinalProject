@@ -4,6 +4,13 @@
 
     
     <style>
+
+         body{
+         background-repeat: no-repeat; 
+         background-image:url('http://i64.tinypic.com/214txra.png');
+       
+        }
+
         #servicesTable {
     font-family: "Trebuchet MS", Arial, Arial, Helvetica, sans-serif;
     border-collapse: collapse;
