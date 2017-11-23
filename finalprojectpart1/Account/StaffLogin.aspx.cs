@@ -88,6 +88,7 @@ namespace finalprojectpart1.Account
 
                         FormsAuthentication.RedirectFromLoginPage
                             (UserName.Text, RememberMe.Checked);
+                        Response.Redirect("~/StaffPage.aspx");
                     }
                 }
                 else
