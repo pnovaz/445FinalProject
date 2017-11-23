@@ -52,7 +52,7 @@
         <h1 class="welcomePage">Member Page</h1>
     <div class="welcomePage">
         <% Response.Write("Hello " + HttpContext.Current.User.Identity.Name + ", "); %>
-        Access all Team Gucci Services Here
+        access all Team Gucci Services here!
     
     </div>
         </div>

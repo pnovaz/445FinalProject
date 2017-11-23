@@ -43,6 +43,12 @@
         color: tomato;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+
+
+    .headers{
+        color: coral;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
     </style>
 
  <div class="content-wrapper">
@@ -52,9 +58,26 @@
 
                 <h2 class ="welcomePage"><b>Team Gucci's Services Page</b><br /></h2>
             </hgroup>
-            <h3>Description</h3>
-            This website describes the web services and local components developed by <b>Petra Novakovic</b>. 
+            <h2 >Description</h2>
+            This website describes the web services and local components developed by <b>Petra Novakovic and Jennifer Krause</b>. 
             <br />
+
+     <h2 class="headers">As a member you can..</h2>
+     <ul>
+         <li>Perform a search for an item on Walmart.com that conveniently displays whether the item is available in stores or online, the price of the item, description, and more.</li>
+         <li>Enter a zipcode of the area you plan on shopping in to return the crime data statistics around that shopping area.</li>
+         <li>Find the nearest store by entering the name of the store you want to visit and the zipcode; we will display the store information for you and nearest location.</li>
+         <li>Conveniently retrieve store hours for any store you plan on visiting.</li>
+         <li><b>Will you make it?</b>Let us help you determine whether you can make it to your desired store in time before it closes by assessing the traffic situation for you.</li>
+         <li><b>Who's Here?</b> Determine if any of your friends are at a certain store.</li>
+
+     </ul>
+       <h2 class="headers">As staff you can..</h2>
+     <ul>
+         <li>Authorize user access to the staff page by adding credentials to an xml file.</li>
+     </ul>
+    <img src="http://i66.tinypic.com/2enm2vn.jpg" border="0"/>
+
      </div>
 
 
