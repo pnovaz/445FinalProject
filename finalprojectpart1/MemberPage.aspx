@@ -1,5 +1,8 @@
 ﻿<%@ Page Language="C#"  MasterPageFile="~/Site.Master"  AutoEventWireup="true" CodeBehind="MemberPage.aspx.cs" Inherits="finalprojectpart1.MemberPage" %>
 
+<%@ Register src="~/CalendarUserControl.ascx"  tagname="CalendarUserControl" tagprefix="ucl"%>
+
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     
@@ -66,6 +69,7 @@
 
 
  <h3>Service Directory</h3>
+    <h5>Access the services below to make your next shopping experience more hassle-free</h5>
     <table id="servicesTable">
     <tr>
 		<th>Provider Name</th>
@@ -88,6 +92,7 @@
 
   
     </table>
-
+    <hr />
+    <ucl:CalendarUserControl ID="CalendarUserControl1" runat="server" />
 
 </asp:Content>

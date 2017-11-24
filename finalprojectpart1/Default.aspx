@@ -5,7 +5,7 @@
     <style>
 
         body{
-         background-repeat: no-repeat; 
+         background-repeat: repeat; 
          background-image:url('http://i64.tinypic.com/214txra.png');
        
         }
@@ -49,13 +49,17 @@
 
     .welcomePage{
         color: tomato;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Lucida Bright';
     }
 
 
     .headers{
         color: darkorange;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .different{
+        font-family: Impact;
     }
     </style>
    
@@ -78,19 +82,79 @@
          <li>Conveniently retrieve store hours for any store you plan on visiting.</li>
          <li><b>Will you make it?</b> Let us help you determine whether you can make it to your desired store in time before it closes by assessing the traffic situation for you.</li>
          <li><b>Who's Here?</b> Determine if any of your friends are at a certain store.</li>
+         <li>Register now to access all of these services and more!</li>
 
      </ul>
-       <h2 class="headers">As staff you can..</h2>
+       <h2 class="headers">As a staff member you can..</h2>
      <ul>
          <li>Authorize user access to the staff page by adding credentials to an xml file.</li>
+         <li>CSE 445 TA has been granted access and should proceed to Staff Login with the credentials provided by Dr. Chen. The TA must register as a member and then proceed to Member Login to access all services.</li>
      </ul>
     <img src="http://i66.tinypic.com/2enm2vn.jpg" border="0"/>
 
-     </div>
+    
+    
+     <h3 class="different">Who developed what?</h3>
+    <h5>Here is the breakdown of the contributions of each teammate for this project.</h5>
+    <table id="servicesTable">
+    <tr>
+		<th>Provider Name</th>
+        <th class="auto-style3">Service/Local Component</th>
+		<th class="auto-style1">TryIt Link</th>
+        <th>Service Description</th>
+	</tr>
+	<tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">Walmart Search Web Service</td>	
+		<td class="auto-style1">Must be a member to access</td>
+        <td>Uses Walmart's Search Request API that allows the user to enter an item in the search bar and browse a list of returned items with their descriptions and price information provided by Walmart.</td>
+	</tr>
+        <tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">Find Store Nearest You</td>	
+		<td class="auto-style1">Must be a member to access</td>
+        <td>Enter a store name and zipcode to find the store you are searching for nearest you.</td>
+	</tr>
+         <tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">Calendar User Control on Member Page</td>	
+		<td class="auto-style1"><a href="Account/Login.aspx">Login to access Member Page</a></td>
+        <td>A convenient calendar is provided on the member page as a user control to help the user plan their trip.</td>
+	</tr>
+         <tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">Image Verifier Service Implementation</td>	
+		<td class="auto-style1"><a href="Account/Register.aspx">Register Page</a></td>
+        <td>When registering for a member account to access our services, you will be prompted to enter the contents of a captcha. This service was provided by ASU.</td>
+	</tr>
+         <tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">Cookies, Login/Logout Functionality</td>	
+		<td class="auto-style1"><a href="Account/Login.aspx">Log in</a></td>
+        <td>After logging in you will have the option to sign out. Also, your username will be displayed in all welcome messages as you peruse the site.</td>
+	</tr>
+            <tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">Member Page</td>	
+		<td class="auto-style1"><a href="Account/Login.aspx">Log in to access Member Page</a></td>
+        <td>Created member page, added my contributed services, and added the user control to the member page.</td>
+	</tr>
+             <tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">Home Page</td>	
+		<td class="auto-style1"><a href="Default.aspx">Home Page(Current Page)</a></td>
+        <td>Spent time designing the page(background images, fonts, etc), adding content, table functionality, and more. </td>
+	</tr>
+           <tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">DLL library for encrypting passwords in Member.xml and Staff.xml</td>	
+		<td class="auto-style1">Enacted when a new member registers for an account</td>
+        <td>When user registers for a member account their information is stored in Member.xml and their password is encrytped. </td>
+	</tr>
 
-
-
-
+    </table>
+       
+      </div>
 </asp:Content>
 
 
