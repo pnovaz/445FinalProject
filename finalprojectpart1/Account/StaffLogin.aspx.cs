@@ -32,7 +32,7 @@ namespace finalprojectpart1.Account
             }
             else
             {
-                hello.Text = "Welcome back, new user!"; //no user info saved so assume new user
+                hello.Text = "Welcome, new user!"; //no user info saved so assume new user
             }
         }
 

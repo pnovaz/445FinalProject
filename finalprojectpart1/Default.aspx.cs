@@ -21,7 +21,7 @@ namespace finalprojectpart1
             }
             else
             {
-                welcomeMessage.Text = "Welcome back, new user!"; //no user info saved so assume new user
+                welcomeMessage.Text = "Welcome, new user!"; //no user info saved so assume new user
             }
         }
     }
