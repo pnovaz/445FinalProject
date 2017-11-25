@@ -30,6 +30,10 @@ namespace finalprojectpart1.Account
                 hello.Text = "Welcome Back, " + myCookies["username"] + "!";
 
             }
+            else
+            {
+                hello.Text = "Welcome back, new user!"; //no user info saved so assume new user
+            }
         }
 
 

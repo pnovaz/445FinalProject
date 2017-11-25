@@ -19,6 +19,10 @@ namespace finalprojectpart1
                 welcomeMessage.Text = "Welcome back, " + myCookies["username"] + "!";
 
             }
+            else
+            {
+                welcomeMessage.Text = "Welcome back, new user!"; //no user info saved so assume new user
+            }
         }
     }
 }
