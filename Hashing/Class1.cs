@@ -21,5 +21,6 @@ namespace Hashing
 
             return hashValue;
         }
-    }
+
+	}
 }

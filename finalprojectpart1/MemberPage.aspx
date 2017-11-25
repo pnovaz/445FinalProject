@@ -89,6 +89,18 @@
 		<td class="auto-style1"><a href="http://webstrar20.fulton.asu.edu/page10/FindNearestStore.aspx">Find Store Now</a></td>
         <td>Enter a store name and zipcode to find the store you are searching for nearest you.</td>
 	</tr>
+        <tr>
+            <td>Jennifer Krause</td>
+            <td class="auto-style3">Hours Calculator</td>
+            <td class="auto-style1"><a href="http://webstrar20.fulton.asu.edu/page1/Default">Hours Calculator</a></td>
+            <td>Uses Yelp's API to access the hours of a given store at a given address and displays them in a table.</td>
+        </tr>
+        <tr>
+            <td>Jennifer Krause</td>
+            <td class="auto-style3">Will You Make It?</td>
+            <td class="auto-style1"><a href="http://webstrar20.fulton.asu.edu/page2/Default">Will You Make It?</a></td>
+            <td>Uses a combination of Google Matrix API and the Hours Calculator to give the user information about their estimated time of travel given mode of travel, destination, and current location.</td>
+        </tr>
 
   
     </table>

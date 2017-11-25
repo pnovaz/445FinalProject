@@ -61,6 +61,9 @@
     .different{
         font-family: Impact;
     }
+        .auto-style1 {
+            height: 57px;
+        }
     </style>
    
  <div class="content-wrapper" >
@@ -140,10 +143,10 @@
         <td>Created member page, added my contributed services, and added the user control to the member page.</td>
 	</tr>
              <tr>
-		<td>Petra Novakovic</td>
-        <td class="auto-style3">Home Page</td>	
+		<td class="auto-style1">Petra Novakovic</td>
+        <td class="auto-style1">Home Page</td>	
 		<td class="auto-style1"><a href="Default.aspx">Home Page(Current Page)</a></td>
-        <td>Spent time designing the page(background images, fonts, etc), adding content, table functionality, and more. </td>
+        <td class="auto-style1">Spent time designing the page(background images, fonts, etc), adding content, table functionality, and more. </td>
 	</tr>
            <tr>
 		<td>Petra Novakovic</td>
@@ -151,6 +154,32 @@
 		<td class="auto-style1">Enacted when a new member registers for an account</td>
         <td>When user registers for a member account their information is stored in Member.xml and their password is encrytped. </td>
 	</tr>
+
+        <tr>
+            <td>Jennifer Krause</td>
+            <td class="auto-style3">Staff Page</td>
+            <td class="auto-style1"><a href="Account/Login.aspx">Log in to access Staff Page</a></td>
+            <td>Only users which have logged in as staff may access this page, which is used to add other staff members into Staff.xml.</td>
+        </tr>
+        <tr>
+            <td>Jennifer Krause</td>
+            <td class="auto-style3">Global.asax Visitor Counter</td>
+            <td class="auto-style1">Enacted whenever a new user visits the site</td>
+            <td>Whenever a new user visits the site, the Visitor Counter is incremented by 1.</td>
+        </tr>
+        <tr>
+            <td>Jennifer Krause</td>
+            <td class="auto-style3">Hours Calculator</td>
+            <td class="auto-style1">Must be a member to access</td>
+            <td>Uses Yelp's API to access the hours of a given store at a given address and displays them in a table.</td>
+        </tr>
+        <tr>
+            <td>Jennifer Krause</td>
+            <td class="auto-style3">Will You Make It?</td>
+            <td class="auto-style1">Must be a member to access</td>
+            <td>Uses a combination of Google Matrix API and the Hours Calculator to give the user information about their estimated time of travel given mode of travel, destination, and current location.</td>
+        </tr>
+
 
     </table>
        

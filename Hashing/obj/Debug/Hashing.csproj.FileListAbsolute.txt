@@ -21,3 +21,9 @@ C:\Users\Petra\Desktop\445finalProject\Hashing\bin\Debug\Hashing.pdb
 C:\Users\Petra\Desktop\445finalProject\Hashing\obj\Debug\Hashing.csprojResolveAssemblyReference.cache
 C:\Users\Petra\Desktop\445finalProject\Hashing\obj\Debug\Hashing.dll
 C:\Users\Petra\Desktop\445finalProject\Hashing\obj\Debug\Hashing.pdb
+C:\Users\Jennifer\Documents\GitHub\445FinalProject\Hashing\bin\Debug\Hashing.dll.config
+C:\Users\Jennifer\Documents\GitHub\445FinalProject\Hashing\bin\Debug\Hashing.dll
+C:\Users\Jennifer\Documents\GitHub\445FinalProject\Hashing\bin\Debug\Hashing.pdb
+C:\Users\Jennifer\Documents\GitHub\445FinalProject\Hashing\obj\Debug\Hashing.csprojResolveAssemblyReference.cache
+C:\Users\Jennifer\Documents\GitHub\445FinalProject\Hashing\obj\Debug\Hashing.dll
+C:\Users\Jennifer\Documents\GitHub\445FinalProject\Hashing\obj\Debug\Hashing.pdb
