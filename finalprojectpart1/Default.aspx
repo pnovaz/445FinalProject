@@ -89,7 +89,6 @@
          <li>Find the nearest store by entering the name of the store you want to visit and the zipcode; we will display the store information for you and nearest location.</li>
          <li>Conveniently retrieve store hours for any store you plan on visiting.</li>
          <li><b>Will you make it?</b> Let us help you determine whether you can make it to your desired store in time before it closes by assessing the traffic situation for you.</li>
-         <li><b>Who's Here?</b> Determine if any of your friends are at a certain store.</li>
          <li>Register now to access all of these services and more!</li>
 
      </ul>

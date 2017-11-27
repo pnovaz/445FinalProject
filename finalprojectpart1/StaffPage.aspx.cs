@@ -19,12 +19,12 @@ namespace finalprojectpart1
 
 		protected void Button1_Click(object sender, EventArgs e)
 		{
-			hashing hasher = new hashing();
-			string pass = hasher.hash(TextBox2.Text);
+			string pass = TextBox2.Text;
 			string user = TextBox1.Text;
+			string url = Server.MapPath("~/App_Data/Staff.xml");
 			DataSet set = new DataSet();
 
-			FileStream file = new FileStream("~/App_Data/Staff.xml", FileMode.Open, FileAccess.Read);
+			FileStream file = new FileStream(url, FileMode.Open, FileAccess.Read);
 			StreamReader reader = new StreamReader(file);
 			set.ReadXml(reader);
 
@@ -35,11 +35,12 @@ namespace finalprojectpart1
 			set.AcceptChanges();
 
 			file.Close();
-			file = new FileStream("~/App_Data/Staff.xml", FileMode.Create, FileAccess.Write | FileAccess.Read);
+			file = new FileStream(url, FileMode.Create, FileAccess.Write | FileAccess.Read);
 			StreamWriter writer = new StreamWriter(file);
 			set.WriteXml(writer);
-			file.Close();
 			writer.Close();
+			file.Close();
+
 
 			Label1.Text = "Success!";
 		}
