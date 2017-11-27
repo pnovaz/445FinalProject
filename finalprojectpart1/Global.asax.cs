@@ -12,6 +12,7 @@ namespace finalprojectpart1
     public class Global : HttpApplication
     {
 		public static int globalCounter;
+		private static object aLock = new object();
 
         void Application_Start(object sender, EventArgs e)
         {
@@ -29,7 +30,7 @@ namespace finalprojectpart1
 
 		public static void increment()
 		{
-			lock(this)
+			lock(aLock)
 			{
 				globalCounter += 1;
 			}
