@@ -60,8 +60,32 @@
     <div class="welcomePage">
         <% Response.Write("Hello, " + HttpContext.Current.User.Identity.Name + ". "); %>
         Access all Team Gucci Staff Services here!
-    
     </div>
         </div>
+        <h3>Adding a new Staff member:</h3>
+       
+        <h5>
+            <br />
+        Enter username:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <br />
+        Enter password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    
+        </h5>
+        <h5>
+        <br />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" />
+    
+        </h5>
+    <h5>
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server" Text="..."></asp:Label>
+    
+        </h5>
+    <p>
+        &nbsp;</p>
+        
 
 </asp:Content>

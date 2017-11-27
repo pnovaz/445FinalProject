@@ -19,6 +19,9 @@ namespace finalprojectpart1
                 welcomeMessage.Text = "Welcome back, " + myCookies["username"] + "!";
 
             }
+
+			// Jennifer's code :)
+			counterMessage.Text = "Number of users who have visited: " + Global.globalCounter.ToString();
         }
     }
 }

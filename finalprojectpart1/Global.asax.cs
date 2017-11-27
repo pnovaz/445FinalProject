@@ -11,11 +11,28 @@ namespace finalprojectpart1
 {
     public class Global : HttpApplication
     {
+		public static int globalCounter;
+
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+			globalCounter = 0;
         }
+
+		void Session_Start(object sender, EventArgs e)
+		{
+			increment();
+		}
+
+		void increment()
+		{
+			lock(this)
+			{
+				globalCounter += 1;
+			}
+		}
     }
 }

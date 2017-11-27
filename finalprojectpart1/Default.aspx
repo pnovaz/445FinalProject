@@ -67,7 +67,12 @@
     </style>
    
  <div class="content-wrapper" >
+       <br />
        <asp:Label ID="welcomeMessage" runat="server" CssClass="welcome"></asp:Label>
+    
+            <br />
+       <asp:Label ID="counterMessage" runat="server" CssClass="welcome"></asp:Label>
+       <br />
     
             <hgroup class="title">
 
