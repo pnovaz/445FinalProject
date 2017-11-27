@@ -86,6 +86,8 @@ namespace finalProject1.Account
                     }
                     else
                     {
+						//increment the visitor counter
+						Global.increment();
 
                         FormsAuthentication.RedirectFromLoginPage
                             (UserName.Text, RememberMe.Checked);

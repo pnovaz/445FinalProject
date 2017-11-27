@@ -22,12 +22,12 @@ namespace finalprojectpart1
 			globalCounter = 0;
         }
 
-		void Session_Start(object sender, EventArgs e)
+		/*void Session_Start(object sender, EventArgs e)
 		{
 			increment();
-		}
+		}*/
 
-		void increment()
+		public static void increment()
 		{
 			lock(this)
 			{
