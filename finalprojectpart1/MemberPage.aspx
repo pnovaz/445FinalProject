@@ -92,7 +92,7 @@
         <tr>
             <td>Jennifer Krause</td>
             <td class="auto-style3">Hours Calculator</td>
-            <td class="auto-style1"><a href="http://webstrar20.fulton.asu.edu/page1/Default">Hours Calculator</a></td>
+            <td class="auto-style1"><a href="http://webstrar20.fulton.asu.edu/page3/Default">Hours Calculator</a></td>
             <td>Uses Yelp's API to access the hours of a given store at a given address and displays them in a table.</td>
         </tr>
         <tr>
