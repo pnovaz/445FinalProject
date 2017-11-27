@@ -28,9 +28,12 @@ namespace finalProject1.Account
                 hello.Text = "Welcome Back, " + myCookies["username"] + "!";
 
             }
+            else
+            {
+                hello.Text = "Welcome, new user!"; //no user info saved so assume new user
+            }
+
         }
-
-
         protected void LogIn(object sender, EventArgs e)
         {
             if (IsValid)
