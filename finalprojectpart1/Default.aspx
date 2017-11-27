@@ -170,7 +170,7 @@
             <td>Jennifer Krause</td>
             <td class="auto-style3">Global.asax Visitor Counter</td>
             <td class="auto-style1">Enacted whenever a new user visits the site</td>
-            <td>Whenever a new user visits the site, the Visitor Counter is incremented by 1.</td>
+            <td>Whenever a new user visits the site, the Visitor Counter is incremented by 1. You can view it on this welcome page.</td>
         </tr>
         <tr>
             <td>Jennifer Krause</td>
