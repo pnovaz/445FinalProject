@@ -21,7 +21,7 @@ namespace finalprojectpart1
 		{
 			string pass = TextBox2.Text;
 			string user = TextBox1.Text;
-			string url = Server.MapPath("~/App_Data/Staff.xml");
+			string url = Server.MapPath("App_Data/Staff.xml");
 			DataSet set = new DataSet();
 
 			FileStream file = new FileStream(url, FileMode.Open, FileAccess.Read);
