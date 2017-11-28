@@ -87,5 +87,5 @@
     <p>
         &nbsp;</p>
         
-
+     <asp:Label ID="Label3" runat="server" Text="">To view all services created please use your TA credentials to access the member page, also. The TA has already been registered with specified credentials for both member and staff pages.</asp:Label>
 </asp:Content>

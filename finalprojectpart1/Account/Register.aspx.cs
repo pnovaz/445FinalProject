@@ -24,7 +24,7 @@ namespace finalprojectpart1.Account
         protected void CreateUser_Click(object sender, EventArgs e)
         {
 
-            DataSet ds = new DataSet();
+            DataSet dataSet = new DataSet();
 
             String userFile = "../App_Data/Member.xml";
 
@@ -32,7 +32,7 @@ namespace finalprojectpart1.Account
                 FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(fs);
 
-            ds.ReadXml(reader);
+            dataSet.ReadXml(reader);
 
             fs.Close(); //close after reading
 
@@ -40,7 +40,7 @@ namespace finalprojectpart1.Account
 
             string hashedPassword = hashCompute.hash(Password.Text);
 
-            DataRow newUser = ds.Tables[0].NewRow(); //add new user informate to the xml file
+            DataRow newUser = dataSet.Tables[0].NewRow(); //add new user informate to the xml file
 
             newUser["UserName"] = UserName.Text;
 
@@ -48,15 +48,15 @@ namespace finalprojectpart1.Account
 
        
 
-            ds.Tables[0].Rows.Add(newUser);
+            dataSet.Tables[0].Rows.Add(newUser);
 
-            ds.AcceptChanges();
+            dataSet.AcceptChanges();
 
             fs = new FileStream(Server.MapPath(userFile), FileMode.Create,
                                 FileAccess.Write | FileAccess.Read);
             StreamWriter writer = new StreamWriter(fs);
 
-            ds.WriteXml(writer);
+            dataSet.WriteXml(writer);
 
             writer.Close();
 

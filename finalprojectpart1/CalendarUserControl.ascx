@@ -6,7 +6,7 @@
     }
 </script>
 
-<h4><b>User Control: Calendar to Plan your Trip</b></h4>
+<h5><b>User Control: Calendar to help you plan when your next trip is</b></h5>
 
 <asp:Label ID="Label1" runat="server" Font-Size="Small" ForeColor="Orange"><b></b></asp:Label>
 <br /><br />

@@ -85,7 +85,7 @@
      <h2 class="headers">As a member you can..</h2>
      <ul>
          <li>Perform a search for an item on Walmart.com that conveniently displays whether the item is available in stores or online, the price of the item, description, and more.</li>
-         <li>Enter a zipcode of the area you plan on shopping in to return the crime data statistics around that shopping area.</li>
+         <li>Assess the current traffic information for the Phoenix-Metro Valley.</li>
          <li>Find the nearest store by entering the name of the store you want to visit and the zipcode; we will display the store information for you and nearest location.</li>
          <li>Conveniently retrieve store hours for any store you plan on visiting.</li>
          <li><b>Will you make it?</b> Let us help you determine whether you can make it to your desired store in time before it closes by assessing the traffic situation for you.</li>
@@ -95,7 +95,7 @@
        <h2 class="headers">As a staff member you can..</h2>
      <ul>
          <li>Authorize user access to the staff page by adding credentials to an xml file.</li>
-         <li>CSE 445 TA has been granted access and should proceed to Staff Login with the credentials provided by Dr. Chen. The TA must register as a member and then proceed to Member Login to access all services.</li>
+         <li>CSE 445 TA has been granted access and should proceed to Staff Login with the credentials provided by Dr. Chen. The TA has also been registered to access the member page. Please access both Member and Staff pages.</li>
      </ul>
     <img src="http://i66.tinypic.com/2enm2vn.jpg" border="0"/>
 
@@ -157,6 +157,13 @@
         <td class="auto-style3">DLL library for encrypting passwords in Member.xml and Staff.xml</td>	
 		<td class="auto-style1">Enacted when a new member registers for an account</td>
         <td>When user registers for a member account their information is stored in Member.xml and their password is encrytped. </td>
+	</tr>
+
+        <tr>
+		<td>Petra Novakovic</td>
+        <td class="auto-style3">Google Map with Traffic Layer</td>	
+		<td class="auto-style1">Must be member to access</td>
+        <td>An embedded google map that uses Google API and shows current traffic in the valley. </td>
 	</tr>
 
         <tr>

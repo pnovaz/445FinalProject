@@ -52,7 +52,7 @@ namespace finalProject1.Account
 
                 DataSet ds = new DataSet();
 
-                String cmd = "UserName='" + UserName.Text + "'";
+                String command = "UserName='" + UserName.Text + "'";
 
                 FileStream fs = new FileStream(Server.MapPath("../App_Data/Member.xml"),
                                   FileMode.Open, FileAccess.Read);
@@ -64,7 +64,7 @@ namespace finalProject1.Account
 
                 DataTable users = ds.Tables[0];
 
-                DataRow[] matches = users.Select(cmd);
+                DataRow[] matches = users.Select(command);
 
                 if (matches != null && matches.Length > 0)
                 {

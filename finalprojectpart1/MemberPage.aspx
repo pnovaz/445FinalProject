@@ -8,8 +8,15 @@
     
     <style>
 
+
+#map{
+    height: 300px;
+    width:  700px;
+}
+
+
          body{
-         background-repeat: no-repeat; 
+         background-repeat: repeat; 
        background-image:url('http://i64.tinypic.com/214txra.png');
        
         }
@@ -104,7 +111,29 @@
 
   
     </table>
-    <hr />
+    <h3><b>Assess the current traffic situation:</b></h3>
+<div id="map"></div>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: {lat: 33.44277, lng: -112.0728}
+        });
+
+        var trafficLayer = new google.maps.TrafficLayer();
+        trafficLayer.setMap(map);
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDrNWjab5OpgbRLa1FoUGFiDDYKRSxRjo&callback=initMap">
+    </script>
+    
+
+    
     <ucl:CalendarUserControl ID="CalendarUserControl1" runat="server" />
 
 </asp:Content>
+
+
+
+

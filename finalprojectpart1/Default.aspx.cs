@@ -13,6 +13,7 @@ namespace finalprojectpart1
         protected void Page_Load(object sender, EventArgs e)
         {
             HttpCookie myCookies = Request.Cookies["myCookieId"];
+
             if (myCookies != null)
             {
 
