@@ -5,7 +5,7 @@
     <style>
 
  body{
-         background-repeat: no-repeat; 
+         background-repeat: repeat; 
          background-image:url('http://i64.tinypic.com/214txra.png');
        
        
